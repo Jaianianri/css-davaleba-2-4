@@ -6,7 +6,7 @@
 
 #foto_div {
     height: 674px;
-    width: 1400px;
+    width: 1258px;
     background-image: url(image.png);
     margin: 0 auto;
     color: #fff;
@@ -86,24 +86,79 @@
 
     color: #535862;
 }
+
 #your {
     display: inline-block;
-   
+    vertical-align: middle;
+
 }
+
 #button-wrapper {
     display: inline-block;
     padding-left: 24px;
-    
+    vertical-align: middle;
+    margin-top: -18px;
+
 }
 
 
 #button-Subscribe {
-    max-width: 119px;
-    width: 100%;
-    height: 48px;
     padding: var(--spacing-lg, 12px) 18px;
-    border-radius: var(--radius-md, 8px);
     border: 2px solid #FFF;
     background: #007CB8;
-  
+    border-radius: var(--radius-md, 8px);
+    border: 2px solid #FFF;
+
+
 }
+
+#footer-div {
+    max-width: 546px;
+    padding: 40px 32px;
+    border-radius: 24px;
+    background: #EBF8FE;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+.full-wrapper {
+    margin-bottom: 24px;
+
+}
+
+.full-wrapper input {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 8px;
+    border-radius: 8px;
+    color: #6D5F8B;
+
+
+}
+
+.full-wrapper label {
+
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+}
+
+::placeholder {
+    color: #6D5F8B;
+}
+#red {
+    margin-top: 7px;
+}
+#chak-box {
+    margin-top: 24px;
+}
+#react {
+    margin-top: 10px;
+}
+.label-id {
+    margin-left: 11px;
+}
+.yrs {
+    margin-left: 11px;
+}
+
